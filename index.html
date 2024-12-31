@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      .wrapper{
+        max-width: 500px;
+        margin: auto;
+      }
+    </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="mt-5 mb-3">
+      <h2 class="text-center">Nigeria States and their Local Government Area using API</h2>
+      <p class="small text-center text-warning">Note: this code require internet connection to work</p>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <label for="states">State</label>
+          <select name="states" id="states" class="form-control form-select">
+            <option selected disabled>_Select State_</option>
+          </select> 
+        </div>
+        <div class="col-md-6">
+          <label for="lga">L.G.A</label>
+          <select name="lga" id="lga" class="form-control form-select">
+            <option selected disabled> _Select LGA_</option>
+          </select> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+ 
+  <script src="app.js"></script>
+</body>
+</html>
